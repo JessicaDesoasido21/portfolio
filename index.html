@@ -67,8 +67,8 @@
                 </article>
                 <h1>Canva Projects</h1>
                 <article>
-                    <button class="prev"><</button>
-                    <ul class="multiple-items">
+                    <button class="prev1"><</button>
+                    <ul class="multiple-items1">
                         <li class="card-container">
                             <div class="card" style="background-image: url(images/Canva.png);">
                                 <a href="#" class="button">DEMO</a>
@@ -87,7 +87,7 @@
                             <div class="card"  style="background-image: url(images/Figma.JPG);"><a href="#" class="button">DEMO</a></div>
                         </li>
                     </ul>
-                    <button class="next">></button>
+                    <button class="next1">></button>
                 </article>
             </section>
         </div>
@@ -161,6 +161,25 @@
             autoplay: true,
             prevArrow: '.prev',
 			nextArrow: '.next',
+            responsive: [
+                {
+                breakpoint: 640,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+                },
+            ]
+        });
+        $('.multiple-items1').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            autoplay: true,
+            prevArrow: '.prev1',
+			nextArrow: '.next1',
             responsive: [
                 {
                 breakpoint: 640,

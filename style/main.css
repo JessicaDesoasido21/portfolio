@@ -134,7 +134,7 @@ header article h1 {
     background-size: cover;
     background-position: center;
 }
-.Project .prev {
+.Project .prev, .Project .prev1 {
     position: absolute;
     z-index: 10;
     top: 50%;
@@ -149,7 +149,7 @@ header article h1 {
     border: none;
     border-radius: 50%;
 }
-.Project .next {
+.Project .next, .Project .next1 {
     position: absolute;
     z-index: 10;
     top: 50%;
@@ -329,11 +329,11 @@ footer p {
         width: 48%;
         margin-bottom: 10px;
     }
-    .Project .next {
+    .Project .next, .Project .next1 {
         transform: translateY(-50%) translateX(0);
         right: 5px;
     }
-    .Project .prev {
+    .Project .prev, .Project .prev1 {
         transform: translateY(-50%) translateX(0);
         left: 5px;
     }
