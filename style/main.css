@@ -89,6 +89,7 @@ header aside img {
     width: 50%;
     aspect-ratio: 1/1;
     object-fit: cover;
+    border-radius: 50%;
 }
 header article {
     width: 48%;
