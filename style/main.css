@@ -97,9 +97,11 @@ header article {
 header article p {
     line-height: 120%;
     margin-bottom: 20px;
+    font-size: 20px;
 }
 header article h1 {
     margin-bottom: 20px;
+    font-size: 100px;
 }
 .Project {
     width: 95%;
@@ -186,6 +188,7 @@ header article h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 20%;
 }
 .About div {
     width: 55%;
