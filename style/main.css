@@ -39,7 +39,7 @@ nav h1 {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    background-color: #309c2e;
+    background-color: #a2d9ff;
     color: white;
 }
 nav ul {
@@ -56,7 +56,7 @@ nav ul li a {
     border-radius: 5px;
 }
 nav ul li a:hover {
-    background-color: #309c2e;
+    background-color: #a2d9ff;
     color: white;
 }
 
@@ -67,7 +67,7 @@ nav ul li a:hover {
     flex-direction: column;
 }
 .bg-green {
-    background-color: #309c2e;
+    background-color: #a2d9ff;
 }
 
 header {
@@ -140,7 +140,7 @@ header article h1 {
     background-color: white;
     position: relative;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
 }
 .Project .prev, .Project .prev1 {
@@ -151,7 +151,7 @@ header article h1 {
     transform: translateY(-50%) translateX(-50%);
     width: 40px;
     height: 40px;
-    background-color: green;
+    background-color: #0099ff;
     color: white;
     font-size: 24px;
     outline: none;
@@ -166,7 +166,7 @@ header article h1 {
     transform: translateY(-50%) translateX(50%);
     width: 40px;
     height: 40px;
-    background-color: green;
+    background-color: #0099ff;
     color: white;
     font-size: 24px;
     outline: none;
@@ -241,7 +241,7 @@ header article h1 {
     margin-bottom: 20px;
 }
 .About ul li:hover {
-    background-color: #309c2e;
+    background-color: #a2d9ff;
 }
 .About ul li:hover > h3 {
     color: white;
@@ -251,15 +251,15 @@ header article h1 {
 }
 .button {
     padding: 10px 20px;
-    background-color: #309c2e;
+    background-color: #0099ff;
     text-align: center;
     color: white;
     transition: 0.2s ease-in-out;
     display: inline-block;
 }
 .button:hover {
-    background-color: white;
-    color: #309c2e;
+    background-color: #0099ff;
+    color:white;
     box-shadow: 0 0 10px 0 rgba(215, 215, 215, 0.871);
     font-weight: bold;
 }
